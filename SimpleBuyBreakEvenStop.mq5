@@ -4,7 +4,7 @@ CTrade trade;
 void OnTick()
   {
        double Ask =NormalizeDouble(SymbolInfoDouble(_Symbol, SYMBOL_ASK),_Digits);
-       
+       Print("welcome to github");
        if(PositionsTotal() == 0)
        {
          trade.Buy(0.01, NULL,Ask,(Ask-300*_Point),(Ask+300*_Point),NULL);
