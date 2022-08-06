@@ -8,6 +8,8 @@
 #property version   "1.00"
 #include<Trade/Trade.mqh>
 CTrade trade;
+double ASK = 0;
+double BID = 0;
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
